@@ -1,0 +1,398 @@
+; One-to-n matrix alignment; reference matrix: oligos_7nt_test_vs_ctrl_m3_shift0	; 3 matrices	; sort_field=Ncor
+; oligos_7nt_test_vs_ctrl_m3; m=0 (reference); ncol1=15; shift=0; ncol=15; ghaaCTGTCACCAsr
+; Alignment reference
+a	134	157	343	330	45	43	21	37	21	477	24	38	429	138	166
+c	129	160	78	65	467	31	21	21	492	29	473	473	43	150	142
+g	166	111	80	88	30	18	507	13	31	21	35	25	42	177	154
+t	142	143	70	88	29	479	22	500	27	44	39	35	57	106	109
+//
+; oligos_7nt_test_vs_ctrl_m3 versus oligos_7nt_test_vs_ctrl_m3; m=1/2; ncol2=15; w=0; offset=0; strand=D; shift=0; score=      1; ghaaCTGTCACCAsr
+; cor=<NA>; Ncor=<NA>
+a	134	157	343	330	45	43	21	37	21	477	24	38	429	138	166
+c	129	160	78	65	467	31	21	21	492	29	473	473	43	150	142
+g	166	111	80	88	30	18	507	13	31	21	35	25	42	177	154
+t	142	143	70	88	29	479	22	500	27	44	39	35	57	106	109
+//
+; oligos_7nt_test_vs_ctrl_m3 versus oligos_6nt_test_vs_ctrl_m3_rc; m=2/2; ncol2=16; w=0; offset=1; strand=R; shift=1; score=0.697033; -hsaCTGTCACCCAg
+; cor=<NA>; Ncor=<NA>
+a	0	124	107	318	37	37	20	30	21	394	19	49	58	337	69
+c	0	120	137	59	383	33	23	28	400	25	418	376	335	56	117
+g	0	107	120	46	35	14	420	20	37	21	20	20	45	42	239
+t	0	128	115	56	24	395	16	401	21	39	22	34	41	44	54
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_6nt_test_vs_ctrl_m3_shift0	; 4 matrices	; sort_field=Ncor
+; oligos_6nt_test_vs_ctrl_m3; m=0 (reference); ncol1=16; shift=0; ncol=16; gkcTGGGTGACAGtsd
+; Alignment reference
+a	117	108	54	44	41	34	22	39	21	401	16	395	24	56	115	128
+c	110	117	239	42	45	20	20	21	37	20	420	14	35	46	120	107
+g	137	124	117	56	335	376	418	25	400	28	23	33	383	59	137	120
+t	115	130	69	337	58	49	19	394	21	30	20	37	37	318	107	124
+//
+; oligos_6nt_test_vs_ctrl_m3 versus oligos_6nt_test_vs_ctrl_m3; m=1/3; ncol2=16; w=0; offset=0; strand=D; shift=0; score=      1; gkcTGGGTGACAGtsd
+; cor=<NA>; Ncor=<NA>
+a	117	108	54	44	41	34	22	39	21	401	16	395	24	56	115	128
+c	110	117	239	42	45	20	20	21	37	20	420	14	35	46	120	107
+g	137	124	117	56	335	376	418	25	400	28	23	33	383	59	137	120
+t	115	130	69	337	58	49	19	394	21	30	20	37	37	318	107	124
+//
+; oligos_6nt_test_vs_ctrl_m3 versus oligos_7nt_test_vs_ctrl_m3_rc; m=2/3; ncol2=15; w=0; offset=2; strand=R; shift=2; score=0.697033; --ysTGGTGACAGttd
+; cor=<NA>; Ncor=<NA>
+a	0	0	109	106	57	35	39	44	27	500	22	479	29	88	70	143
+c	0	0	154	177	42	25	35	21	31	13	507	18	30	88	80	111
+g	0	0	142	150	43	473	473	29	492	21	21	31	467	65	78	160
+t	0	0	166	138	429	38	24	477	21	37	21	43	45	330	343	157
+//
+; oligos_6nt_test_vs_ctrl_m3 versus oligos_6nt_test_vs_ctrl_m5_rc; m=3/3; ncol2=21; w=0; offset=0; strand=R; shift=0; score=0.639023; gmctgGGTGACAGGAc
+; cor=<NA>; Ncor=<NA>
+a	29	32	12	26	21	10	7	18	8	89	2	99	3	6	89	17
+c	28	35	67	9	10	6	13	3	11	9	103	5	5	17	5	78
+g	38	28	28	12	77	91	94	11	90	9	11	7	102	89	14	15
+t	24	24	12	72	11	12	5	87	10	12	3	8	9	7	11	9
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_6nt_test_vs_ctrl_m4_shift0	; 5 matrices	; sort_field=Ncor
+; oligos_6nt_test_vs_ctrl_m4; m=0 (reference); ncol1=15; shift=0; ncol=15; kstcAGAGATAGGrr
+; Alignment reference
+a	164	142	111	91	514	36	644	37	642	46	647	94	68	241	222
+c	158	200	86	453	48	49	23	28	29	67	15	29	70	153	153
+g	205	207	109	103	64	608	24	631	30	63	39	555	536	202	199
+t	198	176	419	78	99	32	34	29	24	549	24	47	51	129	151
+//
+; oligos_6nt_test_vs_ctrl_m4 versus oligos_6nt_test_vs_ctrl_m4; m=1/4; ncol2=15; w=0; offset=0; strand=D; shift=0; score=      1; kstcAGAGATAGGrr
+; cor=<NA>; Ncor=<NA>
+a	164	142	111	91	514	36	644	37	642	46	647	94	68	241	222
+c	158	200	86	453	48	49	23	28	29	67	15	29	70	153	153
+g	205	207	109	103	64	608	24	631	30	63	39	555	536	202	199
+t	198	176	419	78	99	32	34	29	24	549	24	47	51	129	151
+//
+; oligos_6nt_test_vs_ctrl_m4 versus oligos_6nt_test_vs_ctrl_m1_rc; m=2/4; ncol2=15; w=0; offset=0; strand=R; shift=0; score=0.854341; rgtcaGAGATAAGra
+; cor=<NA>; Ncor=<NA>
+a	252	210	198	163	576	83	831	41	873	55	856	852	76	306	311
+c	214	219	143	443	101	131	38	23	34	41	29	26	52	203	221
+g	255	292	200	209	120	656	30	868	31	56	40	44	781	268	236
+t	237	237	417	143	161	88	59	26	20	806	33	36	49	181	190
+//
+; oligos_6nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m5; m=3/4; ncol2=14; w=0; offset=2; strand=D; shift=2; score=0.666028; --rsAGAGATAAGAr
+; cor=<NA>; Ncor=<NA>
+a	0	0	285	234	731	100	892	58	877	81	833	852	77	670	314
+c	0	0	190	307	48	127	21	26	37	50	32	24	68	94	202
+g	0	0	263	249	101	667	24	844	27	73	55	60	776	137	247
+t	0	0	234	182	92	78	35	44	31	768	52	36	51	71	209
+//
+; oligos_6nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m1; m=4/4; ncol2=14; w=0; offset=2; strand=D; shift=2; score=0.653963; --rsAGAGATAAGGm
+; cor=<NA>; Ncor=<NA>
+a	0	0	240	191	581	83	704	35	735	51	697	704	80	101	245
+c	0	0	153	226	45	102	27	22	32	38	31	29	44	66	204
+g	0	0	221	226	107	570	34	728	23	59	44	48	639	594	196
+t	0	0	194	165	75	53	43	23	18	660	36	27	45	47	163
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_7nt_test_vs_ctrl_m4_shift0	; 7 matrices	; sort_field=Ncor
+; oligos_7nt_test_vs_ctrl_m4; m=0 (reference); ncol1=18; shift=0; ncol=18; rragggacAGATAAGGma
+; Alignment reference
+a	142	142	250	80	103	78	320	55	458	19	478	43	451	455	39	65	173	157
+c	119	117	85	52	48	93	77	318	14	21	17	24	21	16	23	39	132	116
+g	141	146	107	314	281	276	65	100	15	460	15	51	30	25	428	384	105	127
+t	119	116	79	75	89	74	59	48	34	21	11	403	19	25	31	33	111	121
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m4; m=1/6; ncol2=18; w=0; offset=0; strand=D; shift=0; score=      1; rragggacAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	142	142	250	80	103	78	320	55	458	19	478	43	451	455	39	65	173	157
+c	119	117	85	52	48	93	77	318	14	21	17	24	21	16	23	39	132	116
+g	141	146	107	314	281	276	65	100	15	460	15	51	30	25	428	384	105	127
+t	119	116	79	75	89	74	59	48	34	21	11	403	19	25	31	33	111	121
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m1; m=2/6; ncol2=14; w=0; offset=4; strand=D; shift=4; score=0.715302; ----rsAGAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	240	191	581	83	704	35	735	51	697	704	80	101	245	238
+c	0	0	0	0	153	226	45	102	27	22	32	38	31	29	44	66	204	191
+g	0	0	0	0	221	226	107	570	34	728	23	59	44	48	639	594	196	189
+t	0	0	0	0	194	165	75	53	43	23	18	660	36	27	45	47	163	190
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_6nt_test_vs_ctrl_m1_rc; m=3/6; ncol2=15; w=0; offset=2; strand=R; shift=2; score=0.710556; --rgtcaGAGATAAGra-
+; cor=<NA>; Ncor=<NA>
+a	0	0	252	210	198	163	576	83	831	41	873	55	856	852	76	306	311	0
+c	0	0	214	219	143	443	101	131	38	23	34	41	29	26	52	203	221	0
+g	0	0	255	292	200	209	120	656	30	868	31	56	40	44	781	268	236	0
+t	0	0	237	237	417	143	161	88	59	26	20	806	33	36	49	181	190	0
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m2_rc; m=4/6; ncol2=14; w=0; offset=4; strand=R; shift=4; score=0.665678; ----dcaCTGATAAGGaa
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	182	157	421	56	108	30	570	29	582	587	59	54	202	179
+c	0	0	0	0	108	179	85	497	22	18	25	34	21	13	21	44	161	161
+g	0	0	0	0	176	158	80	63	21	577	25	52	21	28	524	500	152	162
+t	0	0	0	0	184	156	64	34	499	25	30	535	26	22	46	52	135	148
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_7nt_test_vs_ctrl_m5; m=5/6; ncol2=14; w=0; offset=4; strand=D; shift=4; score=0.654059; ----rsAGAGATAAGArw
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	285	234	731	100	892	58	877	81	833	852	77	670	314	303
+c	0	0	0	0	190	307	48	127	21	26	37	50	32	24	68	94	202	205
+g	0	0	0	0	263	249	101	667	24	844	27	73	55	60	776	137	247	213
+t	0	0	0	0	234	182	92	78	35	44	31	768	52	36	51	71	209	251
+//
+; oligos_7nt_test_vs_ctrl_m4 versus oligos_6nt_test_vs_ctrl_m2; m=6/6; ncol2=13; w=0; offset=4; strand=D; shift=4; score=0.563332; ----rhcCTGATAAGra-
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	234	220	197	51	127	21	774	31	806	789	60	229	260	0
+c	0	0	0	0	204	239	336	704	34	14	43	33	14	17	51	204	201	0
+g	0	0	0	0	222	182	175	67	31	826	27	51	29	41	722	253	219	0
+t	0	0	0	0	217	236	169	55	685	16	33	762	28	30	44	191	197	0
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_7nt_test_vs_ctrl_m1_shift4	; 7 matrices	; sort_field=Ncor
+; oligos_7nt_test_vs_ctrl_m1; m=0 (reference); ncol1=14; shift=4; ncol=18; ----rsAGAGATAAGGma
+; Alignment reference
+a	0	0	0	0	240	191	581	83	704	35	735	51	697	704	80	101	245	238
+c	0	0	0	0	153	226	45	102	27	22	32	38	31	29	44	66	204	191
+g	0	0	0	0	221	226	107	570	34	728	23	59	44	48	639	594	196	189
+t	0	0	0	0	194	165	75	53	43	23	18	660	36	27	45	47	163	190
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m1; m=1/6; ncol2=14; w=0; offset=0; strand=D; shift=4; score=      1; ----rsAGAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	240	191	581	83	704	35	735	51	697	704	80	101	245	238
+c	0	0	0	0	153	226	45	102	27	22	32	38	31	29	44	66	204	191
+g	0	0	0	0	221	226	107	570	34	728	23	59	44	48	639	594	196	189
+t	0	0	0	0	194	165	75	53	43	23	18	660	36	27	45	47	163	190
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m5; m=2/6; ncol2=14; w=0; offset=0; strand=D; shift=4; score=0.921524; ----rsAGAGATAAGArw
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	285	234	731	100	892	58	877	81	833	852	77	670	314	303
+c	0	0	0	0	190	307	48	127	21	26	37	50	32	24	68	94	202	205
+g	0	0	0	0	263	249	101	667	24	844	27	73	55	60	776	137	247	213
+t	0	0	0	0	234	182	92	78	35	44	31	768	52	36	51	71	209	251
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m2_rc; m=3/6; ncol2=14; w=0; offset=0; strand=R; shift=4; score=0.793008; ----dcaCTGATAAGGaa
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	182	157	421	56	108	30	570	29	582	587	59	54	202	179
+c	0	0	0	0	108	179	85	497	22	18	25	34	21	13	21	44	161	161
+g	0	0	0	0	176	158	80	63	21	577	25	52	21	28	524	500	152	162
+t	0	0	0	0	184	156	64	34	499	25	30	535	26	22	46	52	135	148
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_6nt_test_vs_ctrl_m1_rc; m=4/6; ncol2=15; w=-2; offset=-2; strand=R; shift=2; score=0.774531; --rgtcaGAGATAAGra-
+; cor=<NA>; Ncor=<NA>
+a	0	0	252	210	198	163	576	83	831	41	873	55	856	852	76	306	311	0
+c	0	0	214	219	143	443	101	131	38	23	34	41	29	26	52	203	221	0
+g	0	0	255	292	200	209	120	656	30	868	31	56	40	44	781	268	236	0
+t	0	0	237	237	417	143	161	88	59	26	20	806	33	36	49	181	190	0
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m4; m=5/6; ncol2=18; w=-4; offset=-4; strand=D; shift=0; score=0.715302; rragggacAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	142	142	250	80	103	78	320	55	458	19	478	43	451	455	39	65	173	157
+c	119	117	85	52	48	93	77	318	14	21	17	24	21	16	23	39	132	116
+g	141	146	107	314	281	276	65	100	15	460	15	51	30	25	428	384	105	127
+t	119	116	79	75	89	74	59	48	34	21	11	403	19	25	31	33	111	121
+//
+; oligos_7nt_test_vs_ctrl_m1 versus oligos_6nt_test_vs_ctrl_m4; m=6/6; ncol2=15; w=-2; offset=-2; strand=D; shift=2; score=0.653963; --kstcAGAGATAGGrr-
+; cor=<NA>; Ncor=<NA>
+a	0	0	164	142	111	91	514	36	644	37	642	46	647	94	68	241	222	0
+c	0	0	158	200	86	453	48	49	23	28	29	67	15	29	70	153	153	0
+g	0	0	205	207	109	103	64	608	24	631	30	63	39	555	536	202	199	0
+t	0	0	198	176	419	78	99	32	34	29	24	549	24	47	51	129	151	0
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_6nt_test_vs_ctrl_m2_shift4	; 5 matrices	; sort_field=Ncor
+; oligos_6nt_test_vs_ctrl_m2; m=0 (reference); ncol1=13; shift=4; ncol=17; ----rhcCTGATAAGra
+; Alignment reference
+a	0	0	0	0	234	220	197	51	127	21	774	31	806	789	60	229	260
+c	0	0	0	0	204	239	336	704	34	14	43	33	14	17	51	204	201
+g	0	0	0	0	222	182	175	67	31	826	27	51	29	41	722	253	219
+t	0	0	0	0	217	236	169	55	685	16	33	762	28	30	44	191	197
+//
+; oligos_6nt_test_vs_ctrl_m2 versus oligos_6nt_test_vs_ctrl_m2; m=1/4; ncol2=13; w=0; offset=0; strand=D; shift=4; score=      1; ----rhcCTGATAAGra
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	234	220	197	51	127	21	774	31	806	789	60	229	260
+c	0	0	0	0	204	239	336	704	34	14	43	33	14	17	51	204	201
+g	0	0	0	0	222	182	175	67	31	826	27	51	29	41	722	253	219
+t	0	0	0	0	217	236	169	55	685	16	33	762	28	30	44	191	197
+//
+; oligos_6nt_test_vs_ctrl_m2 versus oligos_7nt_test_vs_ctrl_m2_rc; m=2/4; ncol2=14; w=0; offset=0; strand=R; shift=4; score=0.864272; ----dcaCTGATAAGGa
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	182	157	421	56	108	30	570	29	582	587	59	54	202
+c	0	0	0	0	108	179	85	497	22	18	25	34	21	13	21	44	161
+g	0	0	0	0	176	158	80	63	21	577	25	52	21	28	524	500	152
+t	0	0	0	0	184	156	64	34	499	25	30	535	26	22	46	52	135
+//
+; oligos_6nt_test_vs_ctrl_m2 versus oligos_6nt_test_vs_ctrl_m1_rc; m=3/4; ncol2=15; w=-2; offset=-2; strand=R; shift=2; score=0.637664; --rgtcaGAGATAAGra
+; cor=<NA>; Ncor=<NA>
+a	0	0	252	210	198	163	576	83	831	41	873	55	856	852	76	306	311
+c	0	0	214	219	143	443	101	131	38	23	34	41	29	26	52	203	221
+g	0	0	255	292	200	209	120	656	30	868	31	56	40	44	781	268	236
+t	0	0	237	237	417	143	161	88	59	26	20	806	33	36	49	181	190
+//
+; oligos_6nt_test_vs_ctrl_m2 versus oligos_7nt_test_vs_ctrl_m4; m=4/4; ncol2=18; w=-4; offset=-4; strand=D; shift=0; score=0.563332; rragggacAGATAAGGm
+; cor=<NA>; Ncor=<NA>
+a	142	142	250	80	103	78	320	55	458	19	478	43	451	455	39	65	173
+c	119	117	85	52	48	93	77	318	14	21	17	24	21	16	23	39	132
+g	141	146	107	314	281	276	65	100	15	460	15	51	30	25	428	384	105
+t	119	116	79	75	89	74	59	48	34	21	11	403	19	25	31	33	111
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_6nt_test_vs_ctrl_m1_shift1	; 8 matrices	; sort_field=Ncor
+; oligos_6nt_test_vs_ctrl_m1; m=0 (reference); ncol1=15; shift=1; ncol=16; -tyCTTATCTCtgacy
+; Alignment reference
+a	0	190	181	49	36	33	806	20	26	59	88	161	143	417	237	237
+c	0	236	268	781	44	40	56	31	868	30	656	120	209	200	292	255
+g	0	221	203	52	26	29	41	34	23	38	131	101	443	143	219	214
+t	0	311	306	76	852	856	55	873	41	831	83	576	163	198	210	252
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_6nt_test_vs_ctrl_m1; m=1/7; ncol2=15; w=0; offset=0; strand=D; shift=1; score=      1; -tyCTTATCTCtgacy
+; cor=<NA>; Ncor=<NA>
+a	0	190	181	49	36	33	806	20	26	59	88	161	143	417	237	237
+c	0	236	268	781	44	40	56	31	868	30	656	120	209	200	292	255
+g	0	221	203	52	26	29	41	34	23	38	131	101	443	143	219	214
+t	0	311	306	76	852	856	55	873	41	831	83	576	163	198	210	252
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_6nt_test_vs_ctrl_m4_rc; m=2/7; ncol2=15; w=0; offset=0; strand=R; shift=1; score=0.854341; -yyCCTATCTCTgasm
+; cor=<NA>; Ncor=<NA>
+a	0	151	129	51	47	24	549	24	29	34	32	99	78	419	176	198
+c	0	199	202	536	555	39	63	30	631	24	608	64	103	109	207	205
+g	0	153	153	70	29	15	67	29	28	23	49	48	453	86	200	158
+t	0	222	241	68	94	647	46	642	37	644	36	514	91	111	142	164
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m5_rc; m=3/7; ncol2=14; w=-1; offset=-1; strand=R; shift=0; score=0.783303; wyTCTTATCTCTsy--
+; cor=<NA>; Ncor=<NA>
+a	251	209	71	51	36	52	768	31	44	35	78	92	182	234	0	0
+c	213	247	137	776	60	55	73	27	844	24	667	101	249	263	0	0
+g	205	202	94	68	24	32	50	37	26	21	127	48	307	190	0	0
+t	303	314	670	77	852	833	81	877	58	892	100	731	234	285	0	0
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m1_rc; m=4/7; ncol2=14; w=-1; offset=-1; strand=R; shift=0; score=0.774531; tkCCTTATCTCTsy--
+; cor=<NA>; Ncor=<NA>
+a	190	163	47	45	27	36	660	18	23	43	53	75	165	194	0	0
+c	189	196	594	639	48	44	59	23	728	34	570	107	226	221	0	0
+g	191	204	66	44	29	31	38	32	22	27	102	45	226	153	0	0
+t	238	245	101	80	704	697	51	735	35	704	83	581	191	240	0	0
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m4_rc; m=5/7; ncol2=18; w=-1; offset=-1; strand=R; shift=0; score=0.710556; tkCCTTATCTgtccct
+; cor=<NA>; Ncor=<NA>
+a	121	111	33	31	25	19	403	11	21	34	48	59	74	89	75	79
+c	127	105	384	428	25	30	51	15	460	15	100	65	276	281	314	107
+g	116	132	39	23	16	21	24	17	21	14	318	77	93	48	52	85
+t	157	173	65	39	455	451	43	478	19	458	55	320	78	103	80	250
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_6nt_test_vs_ctrl_m2_rc; m=6/7; ncol2=13; w=0; offset=0; strand=R; shift=1; score=0.637664; -tyCTTATCAGgdy--
+; cor=<NA>; Ncor=<NA>
+a	0	197	191	44	30	28	762	33	16	685	55	169	236	217	0	0
+c	0	219	253	722	41	29	51	27	826	31	67	175	182	222	0	0
+g	0	201	204	51	17	14	33	43	14	34	704	336	239	204	0	0
+t	0	260	229	60	789	806	31	774	21	127	51	197	220	234	0	0
+//
+; oligos_6nt_test_vs_ctrl_m1 versus oligos_7nt_test_vs_ctrl_m2; m=7/7; ncol2=14; w=-1; offset=-1; strand=D; shift=0; score=0.608084; ttCCTTATCAGtgh--
+; cor=<NA>; Ncor=<NA>
+a	148	135	52	46	22	26	535	30	25	499	34	64	156	184	0	0
+c	162	152	500	524	28	21	52	25	577	21	63	80	158	176	0	0
+g	161	161	44	21	13	21	34	25	18	22	497	85	179	108	0	0
+t	179	202	54	59	587	582	29	570	30	108	56	421	157	182	0	0
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_7nt_test_vs_ctrl_m5_shift4	; 6 matrices	; sort_field=Ncor
+; oligos_7nt_test_vs_ctrl_m5; m=0 (reference); ncol1=14; shift=4; ncol=18; ----rsAGAGATAAGArw
+; Alignment reference
+a	0	0	0	0	285	234	731	100	892	58	877	81	833	852	77	670	314	303
+c	0	0	0	0	190	307	48	127	21	26	37	50	32	24	68	94	202	205
+g	0	0	0	0	263	249	101	667	24	844	27	73	55	60	776	137	247	213
+t	0	0	0	0	234	182	92	78	35	44	31	768	52	36	51	71	209	251
+//
+; oligos_7nt_test_vs_ctrl_m5 versus oligos_7nt_test_vs_ctrl_m5; m=1/5; ncol2=14; w=0; offset=0; strand=D; shift=4; score=      1; ----rsAGAGATAAGArw
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	285	234	731	100	892	58	877	81	833	852	77	670	314	303
+c	0	0	0	0	190	307	48	127	21	26	37	50	32	24	68	94	202	205
+g	0	0	0	0	263	249	101	667	24	844	27	73	55	60	776	137	247	213
+t	0	0	0	0	234	182	92	78	35	44	31	768	52	36	51	71	209	251
+//
+; oligos_7nt_test_vs_ctrl_m5 versus oligos_7nt_test_vs_ctrl_m1; m=2/5; ncol2=14; w=0; offset=0; strand=D; shift=4; score=0.921524; ----rsAGAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	240	191	581	83	704	35	735	51	697	704	80	101	245	238
+c	0	0	0	0	153	226	45	102	27	22	32	38	31	29	44	66	204	191
+g	0	0	0	0	221	226	107	570	34	728	23	59	44	48	639	594	196	189
+t	0	0	0	0	194	165	75	53	43	23	18	660	36	27	45	47	163	190
+//
+; oligos_7nt_test_vs_ctrl_m5 versus oligos_6nt_test_vs_ctrl_m1_rc; m=3/5; ncol2=15; w=-2; offset=-2; strand=R; shift=2; score=0.783303; --rgtcaGAGATAAGra-
+; cor=<NA>; Ncor=<NA>
+a	0	0	252	210	198	163	576	83	831	41	873	55	856	852	76	306	311	0
+c	0	0	214	219	143	443	101	131	38	23	34	41	29	26	52	203	221	0
+g	0	0	255	292	200	209	120	656	30	868	31	56	40	44	781	268	236	0
+t	0	0	237	237	417	143	161	88	59	26	20	806	33	36	49	181	190	0
+//
+; oligos_7nt_test_vs_ctrl_m5 versus oligos_6nt_test_vs_ctrl_m4; m=4/5; ncol2=15; w=-2; offset=-2; strand=D; shift=2; score=0.666028; --kstcAGAGATAGGrr-
+; cor=<NA>; Ncor=<NA>
+a	0	0	164	142	111	91	514	36	644	37	642	46	647	94	68	241	222	0
+c	0	0	158	200	86	453	48	49	23	28	29	67	15	29	70	153	153	0
+g	0	0	205	207	109	103	64	608	24	631	30	63	39	555	536	202	199	0
+t	0	0	198	176	419	78	99	32	34	29	24	549	24	47	51	129	151	0
+//
+; oligos_7nt_test_vs_ctrl_m5 versus oligos_7nt_test_vs_ctrl_m4; m=5/5; ncol2=18; w=-4; offset=-4; strand=D; shift=0; score=0.654059; rragggacAGATAAGGma
+; cor=<NA>; Ncor=<NA>
+a	142	142	250	80	103	78	320	55	458	19	478	43	451	455	39	65	173	157
+c	119	117	85	52	48	93	77	318	14	21	17	24	21	16	23	39	132	116
+g	141	146	107	314	281	276	65	100	15	460	15	51	30	25	428	384	105	127
+t	119	116	79	75	89	74	59	48	34	21	11	403	19	25	31	33	111	121
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_6nt_test_vs_ctrl_m5_shift0	; 3 matrices	; sort_field=Ncor
+; oligos_6nt_test_vs_ctrl_m5; m=0 (reference); ncol1=21; shift=0; ncol=21; rsaCTgTCCTGTCACCcagkc
+; Alignment reference
+a	34	29	74	7	10	9	11	7	9	8	3	12	10	87	5	12	11	72	12	24	24
+c	29	34	21	91	9	15	14	89	102	7	11	9	90	11	94	91	77	12	28	28	38
+g	30	30	4	17	7	78	5	17	5	5	103	9	11	3	13	6	10	9	67	35	28
+t	26	26	20	4	93	17	89	6	3	99	2	89	8	18	7	10	21	26	12	32	29
+//
+; oligos_6nt_test_vs_ctrl_m5 versus oligos_6nt_test_vs_ctrl_m5; m=1/2; ncol2=21; w=0; offset=0; strand=D; shift=0; score=      1; rsaCTgTCCTGTCACCcagkc
+; cor=<NA>; Ncor=<NA>
+a	34	29	74	7	10	9	11	7	9	8	3	12	10	87	5	12	11	72	12	24	24
+c	29	34	21	91	9	15	14	89	102	7	11	9	90	11	94	91	77	12	28	28	38
+g	30	30	4	17	7	78	5	17	5	5	103	9	11	3	13	6	10	9	67	35	28
+t	26	26	20	4	93	17	89	6	3	99	2	89	8	18	7	10	21	26	12	32	29
+//
+; oligos_6nt_test_vs_ctrl_m5 versus oligos_6nt_test_vs_ctrl_m3_rc; m=2/2; ncol2=16; w=0; offset=5; strand=R; shift=5; score=0.639023; -----hsaCTGTCACCCAgmc
+; cor=<NA>; Ncor=<NA>
+a	0	0	0	0	0	124	107	318	37	37	20	30	21	394	19	49	58	337	69	130	115
+c	0	0	0	0	0	120	137	59	383	33	23	28	400	25	418	376	335	56	117	124	137
+g	0	0	0	0	0	107	120	46	35	14	420	20	37	21	20	20	45	42	239	117	110
+t	0	0	0	0	0	128	115	56	24	395	16	401	21	39	22	34	41	44	54	108	117
+//
+;
+; One-to-n matrix alignment; reference matrix: oligos_7nt_test_vs_ctrl_m2_shift0	; 6 matrices	; sort_field=Ncor
+; oligos_7nt_test_vs_ctrl_m2; m=0 (reference); ncol1=14; shift=0; ncol=14; ttCCTTATCAGtgh
+; Alignment reference
+a	148	135	52	46	22	26	535	30	25	499	34	64	156	184
+c	162	152	500	524	28	21	52	25	577	21	63	80	158	176
+g	161	161	44	21	13	21	34	25	18	22	497	85	179	108
+t	179	202	54	59	587	582	29	570	30	108	56	421	157	182
+//
+; oligos_7nt_test_vs_ctrl_m2 versus oligos_7nt_test_vs_ctrl_m2; m=1/5; ncol2=14; w=0; offset=0; strand=D; shift=0; score=      1; ttCCTTATCAGtgh
+; cor=<NA>; Ncor=<NA>
+a	148	135	52	46	22	26	535	30	25	499	34	64	156	184
+c	162	152	500	524	28	21	52	25	577	21	63	80	158	176
+g	161	161	44	21	13	21	34	25	18	22	497	85	179	108
+t	179	202	54	59	587	582	29	570	30	108	56	421	157	182
+//
+; oligos_7nt_test_vs_ctrl_m2 versus oligos_6nt_test_vs_ctrl_m2_rc; m=2/5; ncol2=13; w=0; offset=1; strand=R; shift=1; score=0.864272; -tyCTTATCAGgdy
+; cor=<NA>; Ncor=<NA>
+a	0	197	191	44	30	28	762	33	16	685	55	169	236	217
+c	0	219	253	722	41	29	51	27	826	31	67	175	182	222
+g	0	201	204	51	17	14	33	43	14	34	704	336	239	204
+t	0	260	229	60	789	806	31	774	21	127	51	197	220	234
+//
+; oligos_7nt_test_vs_ctrl_m2 versus oligos_7nt_test_vs_ctrl_m1_rc; m=3/5; ncol2=14; w=0; offset=0; strand=R; shift=0; score=0.793008; tkCCTTATCTCTsy
+; cor=<NA>; Ncor=<NA>
+a	190	163	47	45	27	36	660	18	23	43	53	75	165	194
+c	189	196	594	639	48	44	59	23	728	34	570	107	226	221
+g	191	204	66	44	29	31	38	32	22	27	102	45	226	153
+t	238	245	101	80	704	697	51	735	35	704	83	581	191	240
+//
+; oligos_7nt_test_vs_ctrl_m2 versus oligos_7nt_test_vs_ctrl_m4_rc; m=4/5; ncol2=18; w=0; offset=0; strand=R; shift=0; score=0.665678; tkCCTTATCTgtcc
+; cor=<NA>; Ncor=<NA>
+a	121	111	33	31	25	19	403	11	21	34	48	59	74	89
+c	127	105	384	428	25	30	51	15	460	15	100	65	276	281
+g	116	132	39	23	16	21	24	17	21	14	318	77	93	48
+t	157	173	65	39	455	451	43	478	19	458	55	320	78	103
+//
+; oligos_7nt_test_vs_ctrl_m2 versus oligos_6nt_test_vs_ctrl_m1; m=5/5; ncol2=15; w=0; offset=1; strand=D; shift=1; score=0.608084; -tyCTTATCTCtga
+; cor=<NA>; Ncor=<NA>
+a	0	190	181	49	36	33	806	20	26	59	88	161	143	417
+c	0	236	268	781	44	40	56	31	868	30	656	120	209	200
+g	0	221	203	52	26	29	41	34	23	38	131	101	443	143
+t	0	311	306	76	852	856	55	873	41	831	83	576	163	198
+//
+;

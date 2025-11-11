@@ -1,0 +1,11 @@
+#Motif	Logo	3 Top hits in databases
+oligos_6nt_test_vs_ctrl_m1	<img border='1' height='50' src='results/oligos_6nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_6nt_test_vs_ctrl_pssm_count_matrices_logo_m1.png'>	
+oligos_6nt_test_vs_ctrl_m2	<img border='1' height='50' src='results/oligos_6nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_6nt_test_vs_ctrl_pssm_count_matrices_logo_m2.png'>	
+oligos_6nt_test_vs_ctrl_m3	<img border='1' height='50' src='results/oligos_6nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_6nt_test_vs_ctrl_pssm_count_matrices_logo_m3.png'>	
+oligos_6nt_test_vs_ctrl_m4	<img border='1' height='50' src='results/oligos_6nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_6nt_test_vs_ctrl_pssm_count_matrices_logo_m4.png'>	
+oligos_6nt_test_vs_ctrl_m5	<img border='1' height='50' src='results/oligos_6nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_6nt_test_vs_ctrl_pssm_count_matrices_logo_m5.png'>	
+oligos_7nt_test_vs_ctrl_m1	<img border='1' height='50' src='results/oligos_7nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_7nt_test_vs_ctrl_pssm_count_matrices_logo_m1.png'>	
+oligos_7nt_test_vs_ctrl_m2	<img border='1' height='50' src='results/oligos_7nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_7nt_test_vs_ctrl_pssm_count_matrices_logo_m2.png'>	
+oligos_7nt_test_vs_ctrl_m3	<img border='1' height='50' src='results/oligos_7nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_7nt_test_vs_ctrl_pssm_count_matrices_logo_m3.png'>	
+oligos_7nt_test_vs_ctrl_m4	<img border='1' height='50' src='results/oligos_7nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_7nt_test_vs_ctrl_pssm_count_matrices_logo_m4.png'>	
+oligos_7nt_test_vs_ctrl_m5	<img border='1' height='50' src='results/oligos_7nt_test_vs_ctrl/peak-motifs_oligos-2str-noov_7nt_test_vs_ctrl_pssm_count_matrices_logo_m5.png'>	

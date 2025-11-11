@@ -1,0 +1,24 @@
+; /var/www/html/rsat/bin/count-words -v 1 -i /var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/data/sequences/peak-motifs_test_purged_ml40_mis3.fasta -l 2 -1str -o /var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/composition/peak-motifs_test_freq-1str-ovlp_2nt.tab 
+; oligomer length              	2
+; column headers
+;    1    seq    oligomer sequence
+;    2    id     oligomer identifier
+;    3    freq   relative frequencies (occurrences per position)
+;    4    occ    occurrences
+#seq	identifier	observed_freq	occ
+aa	aa	0.0707176760021	56915
+ac	ac	0.0517904624637	41682
+ag	ag	0.0792773539425	63804
+at	at	0.0477386247857	38421
+ca	ca	0.0745222534231	59977
+cc	cc	0.0738525384558	59438
+cg	cg	0.0216222260878	17402
+ct	ct	0.0801669938620	64520
+ga	ga	0.0627419795731	50496
+gc	gc	0.0612994209885	49335
+gg	gg	0.0746589299471	60087
+gt	gt	0.0516798787306	41593
+ta	ta	0.0415434507095	33435
+tc	tc	0.0632054372406	50869
+tg	tg	0.0748627022191	60251
+tt	tt	0.0703200715688	56595

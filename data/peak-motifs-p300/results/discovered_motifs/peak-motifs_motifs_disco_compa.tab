@@ -1,0 +1,105 @@
+; compare-matrices  -v 1 -format transfac -file $RSAT/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_discovered.tf -distinct -mode matches -strand DR -uth offset_rank 1 -lth w 5 -lth Wr 0.3 -lth cor 0.7 -lth Ncor 0.4 -return matrix_name,matrix_id,cor,Ncor,width,strand,offset,alignments_1ton -sort Ncor -quick -o $RSAT/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa.tab
+; Program version       	1.118
+; Quick mode 
+; Input files
+;	file1 	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_discovered.tf
+;	file2 	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_discovered.tf
+; Output files
+;	alignments_1ton	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa_alignments_1ton.tab
+;	alignments_1ton_html	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa_alignments_1ton.html
+;	match_table_txt	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa.tab
+;	match_table_html	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa.html
+;	html_index   	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa_index.html
+;	prefix       	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_disco_compa
+; Matrices
+;	file1	10 matrices	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_discovered.tf
+;		file1	1	15	958
+;		file1	2	13	877
+;		file1	3	16	479
+;		file1	4	15	725
+;		file1	5	21	119
+;		file1	6	14	808
+;		file1	7	14	650
+;		file1	8	15	571
+;		file1	9	18	521
+;		file1	10	14	972
+;	file2	10 matrices	/var/www/html/rsat/public_html/tmp/www-data/2025/11/05/peak-motifs.2025-11-05.181036_2025-11-05.181036_ioChdq/results/discovered_motifs/peak-motifs_motifs_discovered.tf
+;		file2		1		15		958
+;		file2		2		13		877
+;		file2		3		16		479
+;		file2		4		15		725
+;		file2		5		21		119
+;		file2		6		14		808
+;		file2		7		14		650
+;		file2		8		15		571
+;		file2		9		18		521
+;		file2		10		14		972
+; Column content
+;	1	id1          	Identifier of the first matrix
+;	2	id2          	Identifier of the second matrix
+;	3	name1        	Name of the first matrix
+;	4	name2        	Name of the second matrix
+;	5	cor          	Pearson coefficient of correlation between frequency matrices
+;	6	Ncor         	Normalized correlation. Ncor = cor * Wr
+;	7	w1           	Width of the first matrix
+;	8	w2           	Width of the second matrix
+;	9	w            	Alignment length (number of overlapping columns between matrix 1 and matrix 2, as a function of the offset)
+;	10	W            	Total alignment length (overlapping + non-overlapping columns). W = w1 + w2 - w
+;	11	Wr           	Relative alignment length (overlap divided by the total alignemnt length). Wr = w/W
+;	12	wr1          	Alignment length relative to the width of the first matrix. wr1 = w/w1
+;	13	wr2          	Alignment length relative to the width of the second matrix. wr2 = w/w2
+;	14	strand       	"strand", i.e. orientation of matrix 2 relative to matrix 1 (D=direct;  R=reverse)
+;	15	offset       	shift of the second matrix relative to the first matrix (negative:left; positive: right)
+#id1	id2	name1	name2	cor	Ncor	w1	w2	w	W	Wr	wr1	wr2	strand	offset
+oligos_7nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	1.000	1.000	15	15	15	15	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	1.000	1.000	14	14	14	14	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	1.000	1.000	16	16	16	16	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	1.000	1.000	13	13	13	13	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m5	1.000	1.000	14	14	14	14	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m5	1.000	1.000	21	21	21	21	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	1.000	1.000	15	15	15	15	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	1.000	1.000	14	14	14	14	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m4	1.000	1.000	18	18	18	18	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m4	1.000	1.000	15	15	15	15	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	0.922	0.922	14	14	14	14	1.0000	1.0000	1.0000	D	0
+oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m1	0.922	0.922	14	14	14	14	1.0000	1.0000	1.0000	D	0
+oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	0.931	0.864	13	14	13	14	0.9286	1.0000	0.9286	R	0
+oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m2	0.931	0.864	14	13	13	14	0.9286	0.9286	1.0000	R	1
+oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	0.854	0.854	15	15	15	15	1.0000	1.0000	1.0000	R	0
+oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	0.854	0.854	15	15	15	15	1.0000	1.0000	1.0000	R	0
+oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	0.793	0.793	14	14	14	14	1.0000	1.0000	1.0000	R	0
+oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m1	0.793	0.793	14	14	14	14	1.0000	1.0000	1.0000	R	0
+oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	0.964	0.783	15	14	13	16	0.8125	0.8667	0.9286	R	-1
+oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m1	0.964	0.783	14	15	13	16	0.8125	0.9286	0.8667	R	-2
+oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	0.953	0.775	14	15	13	16	0.8125	0.9286	0.8667	R	-2
+oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m1	0.953	0.775	15	14	13	16	0.8125	0.8667	0.9286	R	-1
+oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	0.920	0.715	14	18	14	18	0.7778	1.0000	0.7778	D	-4
+oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	0.920	0.715	18	14	14	18	0.7778	0.7778	1.0000	D	4
+oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	0.853	0.711	15	18	15	18	0.8333	1.0000	0.8333	R	-1
+oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m1	0.853	0.711	18	15	15	18	0.8333	0.8333	1.0000	R	2
+oligos_7nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	0.846	0.697	15	16	14	17	0.8235	0.9333	0.8750	R	1
+oligos_6nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m3	oligos_7nt_test_vs_ctrl_m3	0.846	0.697	16	15	14	17	0.8235	0.8750	0.9333	R	2
+oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	0.820	0.666	15	14	13	16	0.8125	0.8667	0.9286	D	2
+oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m4	0.820	0.666	14	15	13	16	0.8125	0.9286	0.8667	D	-2
+oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m2	0.856	0.666	18	14	14	18	0.7778	0.7778	1.0000	R	4
+oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	0.856	0.666	14	18	14	18	0.7778	1.0000	0.7778	R	0
+oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	0.841	0.654	18	14	14	18	0.7778	0.7778	1.0000	D	4
+oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m5	oligos_7nt_test_vs_ctrl_m4	0.841	0.654	14	18	14	18	0.7778	1.0000	0.7778	D	-4
+oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	0.805	0.654	14	15	13	16	0.8125	0.9286	0.8667	D	-2
+oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m4	oligos_7nt_test_vs_ctrl_m1	0.805	0.654	15	14	13	16	0.8125	0.8667	0.9286	D	2
+oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m5	0.839	0.639	16	21	16	21	0.7619	1.0000	0.7619	R	0
+oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m3	oligos_6nt_test_vs_ctrl_m5	oligos_6nt_test_vs_ctrl_m3	0.839	0.639	21	16	16	21	0.7619	0.7619	1.0000	R	5
+oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	0.736	0.638	13	15	13	15	0.8667	1.0000	0.8667	R	-2
+oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	oligos_6nt_test_vs_ctrl_m2	0.736	0.638	15	13	13	15	0.8667	0.8667	1.0000	R	0
+oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	0.748	0.608	15	14	13	16	0.8125	0.8667	0.9286	D	-1
+oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	oligos_7nt_test_vs_ctrl_m2	oligos_6nt_test_vs_ctrl_m1	0.748	0.608	14	15	13	16	0.8125	0.9286	0.8667	D	1
+oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	0.780	0.563	13	18	13	18	0.7222	1.0000	0.7222	D	-4
+oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m2	oligos_7nt_test_vs_ctrl_m4	oligos_6nt_test_vs_ctrl_m2	0.780	0.563	18	13	13	18	0.7222	0.7222	1.0000	D	4
+; Host name	rsat
+; Job started	2025-11-05.181127
+; Job done	2025-11-05.181136
+; Seconds	0.64
+;	user	0.64
+;	system	0.31
+;	cuser	7.1
+;	csystem	1.1
