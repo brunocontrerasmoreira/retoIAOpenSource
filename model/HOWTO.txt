@@ -1,1 +1,0 @@
-This is where trained models will be stored.
